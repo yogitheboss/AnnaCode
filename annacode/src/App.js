@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import Main from './Components/Homepage/Main';
-import Product_Listing from './Components/Products/Product_Listing';
+import ProductListing from './Components/Products/ProductListing';
 import {
   createBrowserRouter,
   RouterProvider
@@ -9,19 +9,18 @@ import {
 
 const router = createBrowserRouter([
   {
-    path : './',
-    element: <Main/>
+    path: '/',
+    element: <Main />
   },
   {
-    path : './products',
-    element: <Product_Listing/>
+    path: '/products',
+    element: <ProductListing />
   }
 ])
 function App() {
   return (
     <>
-    {/* <Main/> */}
-    <Product_Listing/>
+      <RouterProvider router={router} />
     </>
   );
 }
