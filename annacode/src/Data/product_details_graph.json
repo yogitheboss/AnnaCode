@@ -1,7 +1,8 @@
 {
     "Preprofit": "Charts",
     "Pea": [
-        {"time":{
+        {
+            "time": {
                 "Preparations_soil": 1,
                 "sowing": 1,
                 "growth_1": 10,
@@ -9,17 +10,21 @@
                 "growth_2": 45,
                 "fertilizer": 1,
                 "harvest": 30
-            }},
-        {"cost":{
-            "soil": 2000,
-            "sowing": 2000,
-            "water": 2000,
-            "fertilizer": 1000,
-            "harvest": 40000
-      }}
+            }
+        },
+        {
+            "cost": {
+                "soil": 2000,
+                "sowing": 2000,
+                "water": 2000,
+                "fertilizer": 1000,
+                "harvest": 40000
+            }
+        }
     ],
     "masoor": [
-        {"time":{
+        {
+            "time": {
                 "Preparations_soil": 1,
                 "sowing": 1,
                 "growth_1": 25,
@@ -27,17 +32,21 @@
                 "growth_2": 35,
                 "fertilizer": 1,
                 "harvest": 30
-            }},
-        {"cost":{
-            "soil": 2000,
-            "sowing": 2000,
-            "water": 2000,
-            "fertilizer": 1000,
-            "harvest": 50000
-      }}
+            }
+        },
+        {
+            "cost": {
+                "soil": 2000,
+                "sowing": 2000,
+                "water": 2000,
+                "fertilizer": 1000,
+                "harvest": 50000
+            }
+        }
     ],
     "chana": [
-        {"time":{
+        {
+            "time": {
                 "Preparations_soil": 1,
                 "sowing": 1,
                 "growth_1": 30,
@@ -45,17 +54,21 @@
                 "growth_2": 30,
                 "fertilizer": 1,
                 "harvest": 30
-            }},
-        {"cost":{
-            "soil": 2000,
-            "sowing": 2000,
-            "water": 2000,
-            "fertilizer": 1000,
-            "harvest": 56000
-      }}
+            }
+        },
+        {
+            "cost": {
+                "soil": 2000,
+                "sowing": 2000,
+                "water": 2000,
+                "fertilizer": 1000,
+                "harvest": 56000
+            }
+        }
     ],
     "urad": [
-        {"time":{
+        {
+            "time": {
                 "Preparations_soil": 1,
                 "sowing": 1,
                 "growth_1": 30,
@@ -63,17 +76,21 @@
                 "growth_2": 60,
                 "fertilizer": 1,
                 "harvest": 30
-            }},
-        {"cost":{
-            "soil": 2000,
-            "sowing": 2000,
-            "water": 2000,
-            "fertilizer": 1000,
-            "harvest": 15000
-      }}
+            }
+        },
+        {
+            "cost": {
+                "soil": 2000,
+                "sowing": 2000,
+                "water": 2000,
+                "fertilizer": 1000,
+                "harvest": 15000
+            }
+        }
     ],
     "moong": [
-        {"time":{
+        {
+            "time": {
                 "Preparations_soil": 1,
                 "sowing": 1,
                 "growth_1": 30,
@@ -81,17 +98,21 @@
                 "growth_2": 60,
                 "fertilizer": 1,
                 "harvest": 30
-            }},
-        {"cost":{
-            "soil": 2000,
-            "sowing": 2000,
-            "water": 2000,
-            "fertilizer": 1000,
-            "harvest": 20000
-      }}
+            }
+        },
+        {
+            "cost": {
+                "soil": 2000,
+                "sowing": 2000,
+                "water": 2000,
+                "fertilizer": 1000,
+                "harvest": 20000
+            }
+        }
     ],
     "wheat": [
-        {"time":{
+        {
+            "time": {
                 "Preparations_soil": 1,
                 "sowing": 1,
                 "growth_1": 15,
@@ -99,17 +120,21 @@
                 "growth_2": 45,
                 "fertilizer": 1,
                 "harvest": 30
-            }},
-        {"cost":{
-            "soil": 2000,
-            "sowing": 2000,
-            "water": 2000,
-            "fertilizer": 1000,
-            "harvest": 44000
-      }}
+            }
+        },
+        {
+            "cost": {
+                "soil": 2000,
+                "sowing": 2000,
+                "water": 2000,
+                "fertilizer": 1000,
+                "harvest": 44000
+            }
+        }
     ],
     "rice": [
-        {"time":{
+        {
+            "time": {
                 "Preparations_soil": 1,
                 "sowing": 1,
                 "growth_1": 15,
@@ -117,14 +142,16 @@
                 "growth_2": 45,
                 "fertilizer": 1,
                 "harvest": 30
-            }},
-        {"cost":{
-            "soil": 2000,
-            "sowing": 2000,
-            "water": 2000,
-            "fertilizer": 1000,
-            "harvest": 55000
-      }}
+            }
+        },
+        {
+            "cost": {
+                "soil": 2000,
+                "sowing": 2000,
+                "water": 2000,
+                "fertilizer": 1000,
+                "harvest": 55000
+            }
+        }
     ]
 }
-  
