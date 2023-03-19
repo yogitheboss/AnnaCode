@@ -14,11 +14,11 @@ function Product_Listing() {
           <div className="container px-5 py-5 mx-auto">
             <div className="flex flex-wrap -m-4 ">
               {
-
                 data.map((seed, idx) => {
                   return (
                     <div className="lg:w-1/5 md:w-1/2 p-4 w-full" key={idx}>
-                      <Link to={`/product/${idx}`} className="block relative h-48 rounded overflow-hidden">
+                      <Link to={`/product/${idx}`} state={{seed:seed}}
+                         className="block relative h-48 rounded overflow-hidden">
                         <img alt="ecommerce" className="object-cover object-center w-full h-full block" src={seed.url} /></Link>
                       <div className="mt-4 ">
                         <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">{seed.variety}</h3>
