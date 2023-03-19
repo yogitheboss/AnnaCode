@@ -6,12 +6,11 @@ function HowToUse() {
             <div className="py-30">
             <div className="flex flex-col items-center gap-3">
                 <h1 className="text-slate-900 font-bold text-2xl ">How to Use</h1>
-                <h1 className="text-slate-900 font-bold ">WORKS AND PROJECTS</h1>
-                <p className="w-1/2 text-center text-gray-600">Not an expericend one but few projects with quality and contextual basis.These are some projects developed by me.
+                <p className="w-1/2 text-center text-gray-600">अन्न CODE can be used to determine the seed Digital labeling of Seeds of different varieties.
                 </p>
             </div>
             <section className="text-gray-600 body-font">
-                <div className="container px-5 py-24 mx-auto flex flex-wrap">
+                <div className="container px-5 py-12 mx-auto flex flex-wrap">
                     <div className="flex relative pt-10 pb-20 sm:items-center md:w-2/3 mx-auto">
                         <div className="h-full w-6 absolute inset-0 flex items-center justify-center">
                             <div className="h-full w-1 bg-gray-200 pointer-events-none"></div>
@@ -19,7 +18,7 @@ function HowToUse() {
                         <div className="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-green-500 text-white relative z-10 title-font font-medium text-sm">1</div>
                         <div className="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
                             <div className="flex-shrink-0 w-24 h-24 bg-green-100 text-green-500 rounded-full inline-flex items-center justify-center">
-                                <img src="" alt=""/>
+                                <img src="./green qr.png" className='w-6 h-6 rounded-full' alt=""/>
                             </div>
                             <div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
                                 <h2 className="font-medium title-font text-gray-900 mb-1 text-xl">Scan the QR Code</h2>
@@ -58,7 +57,7 @@ function HowToUse() {
                             </div>
                             <div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
                                 <h2 className="font-medium title-font text-gray-900 mb-1 text-xl">Set Reminder for Crops</h2>
-                                <p className="leading-relaxed">Set Link Reminder for the seed </p>
+                                <p className="leading-relaxed">Set Reminders of Nutrients & fertilisers, insecticides & pesticide at specific time of interval for better yirld. </p>
                             </div>
                         </div>
                     </div>
@@ -75,8 +74,8 @@ function HowToUse() {
                                 </svg>
                             </div>
                             <div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
-                                <h2 className="font-medium title-font text-gray-900 mb-1 text-xl">Neptune</h2>
-                                <p className="leading-relaxed">VHS cornhole pop-up, try-hard 8-bit iceland helvetica. Kinfolk bespoke try-hard cliche palo santo offal.</p>
+                                <h2 className="font-medium title-font text-gray-900 mb-1 text-xl">Feedback</h2>
+                                <p className="leading-relaxed">Here farmer could provide thier valuable feedback of Production of seed.</p>
                             </div>
                         </div>
                     </div>
@@ -84,9 +83,9 @@ function HowToUse() {
             </section>
 
             <section className="text-gray-600 body-font">
-                <div className="container px-5 py-24 mx-auto flex flex-wrap">
+                <div className="container px-5 py-12 mx-auto flex flex-wrap">
                     <div className="lg:w-1/2 w-full mb-10 lg:mb-0 rounded-lg overflow-hidden">
-                        <img alt="feature" className="object-cover object-center h-full w-full" src="https://dummyimage.com/460x500"/>
+                        <img alt="feature" className="object-cover object-center h-full w-full" src=""/>
                     </div>
                     <div className="flex flex-col flex-wrap lg:py-6 -mb-10 lg:w-1/2 lg:pl-12 lg:text-left text-center">
                         <div className="flex flex-col mb-10 lg:items-start items-center">
@@ -97,7 +96,7 @@ function HowToUse() {
                             </div>
                             <div className="flex-grow">
                                 <p className="leading-relaxed text-base"> </p>
-                                <Link className="mt-3 text-indigo-500 inline-flex items-center">Learn More
+                                <Link className="mt-3 text-indigo-500 inline-flex items-center">How We Can Help
                                 <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-6 h-6" viewBox="0 0 24 24">
                                     <circle cx="6" cy="6" r="3"></circle>
                                     <circle cx="6" cy="18" r="3"></circle>
