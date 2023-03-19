@@ -4,9 +4,9 @@ function Footer() {
     return (
         <div>
             <footer class="text-gray-600 body-font">
-                <div class="container px-5 py-24 mx-auto">
-                    <div class="flex flex-wrap md:text-left text-center -mb-10 -mx-4">
-                        <div class="lg:w-1/6 md:w-1/2 w-full px-4">
+                {/* <div class="container px-5 py-24 mx-auto">
+                    <div class="flex flex-wrap md:text-left text-center -mb-10 -mx-4"> */}
+                        {/* <div class="lg:w-1/6 md:w-1/2 w-full px-4">
                             <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">CATEGORIES</h2>
                             <nav class="list-none mb-10">
                                 <li>
@@ -56,8 +56,8 @@ function Footer() {
                                     <a class="text-gray-600 hover:text-gray-800">Fourth Link</a>
                                 </li>
                             </nav>
-                        </div>
-                        <div class="lg:w-1/6 md:w-1/2 w-full px-4">
+                        </div> */}
+                        {/* <div class="lg:w-1/6 md:w-1/2 w-full px-4">
                             <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">CATEGORIES</h2>
                             <nav class="list-none mb-10">
                                 <li>
@@ -75,8 +75,8 @@ function Footer() {
                             </nav>
                         </div>
                     </div>
-                </div>
-                <div class="border-t border-gray-200">
+                </div> */}
+                {/* <div class="border-t border-gray-200">
                     <div class="container px-5 py-8 flex flex-wrap mx-auto items-center">
                         <div class="flex md:flex-nowrap flex-wrap justify-center items-end md:justify-start">
                             <div class="relative sm:w-64 w-40 sm:mr-4 mr-2">
@@ -113,7 +113,7 @@ function Footer() {
                             </a>
                         </span>
                     </div>
-                </div>
+                </div> */}
                 <div class="bg-gray-100">
                     <div class="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
                         <p class="text-gray-500 text-sm text-center sm:text-left">© 2020 Tailblocks —
