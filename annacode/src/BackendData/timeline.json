@@ -1,0 +1,91 @@
+{
+    "paddy": {
+        "time":{
+            "total time":"85-135",
+            "sowing":"8-10",
+            "1st irrigation":21,
+            "2nd irrigation":42,
+            "3rd irrigation":63,
+            "span":15,
+            "harvesting":10
+        },
+        "price": {
+            "seedname": "paddy",
+            "labourcost": 17000,
+            "seedcost": 553,
+            "fertilisercost": 1786,
+            "manure": 891
+        }
+    },
+    "Wheat": {
+        "time":{
+            "total time":"100-110",
+            "sowing":"15-20",
+            "1st irrigation":10,
+            "2nd irrigation":20,
+            "3rd irrigation":30,
+            "4rth irrigation":40,
+            "5th irrigation":60,
+            "span":15,
+            "harvesting":10
+        },
+        "price": {
+            "seedname": "Wheat",
+            "labourcost": 17000,
+            "seedcost": 553,
+            "fertilisercost": 1786,
+            "manure": 891
+        }
+    },
+    "Groundnut": {
+        "time":{
+            "total time":"110-120",
+            "sowing":"8-10",
+            "1st irrigation":5,
+            "2nd irrigation":20,
+            "3rd irrigation":40,
+            "span":20,
+            "harvesting":10
+        },
+        "pricr":{
+        "seedname": "Groundnut",
+        "labourcost": 18000,
+        "seedcost": 557,
+        "fertilizer": 1666,
+        "manure": 900
+    }},
+    "Mustard":{
+    "time":{
+        "total time":"110-140",
+        "sowing":"2-5",
+        "1st irrigation":35,
+        "2nd irrigation":50,
+        "span":25,
+        "harvesting":10
+    }, 
+        "price":{
+        "seedname": "Mustard",
+        "labourcost": 17000,
+        "seedcost": 631,
+        "fertilizer": 1989,
+        "manure": 2000
+    }},
+    "Potato": {
+        "time":{
+            "total time":"75-120",
+            "sowing":"10-15",
+            "1st irrigation":7,
+            "2nd irrigation":14,
+            "3rd irrigation":21,
+            "4th irrigation":30,
+            "span":15,
+            "harvesting":10
+        },
+        "Price":{
+        "seedname": "Potato",
+        "labourcost": 20000,
+        "seedcost": 2000,
+        "fertilizer": 2000,
+        "manure": 2000
+    }}
+}
