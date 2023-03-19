@@ -7,7 +7,7 @@ import {
   RouterProvider
 } from 'react-router-dom'
 import LineGraph from './Components/Graph/LineGraph';
-
+import PieGraph from './Components/Graph/PieGraph';
 const router = createBrowserRouter([
   {
     path: '/',
@@ -20,10 +20,6 @@ const router = createBrowserRouter([
   {
     path:'/product/:id',
     element:<ProductMain/>
-  },
-  {
-    path: '/linegraph',
-    element: <LineGraph />
   }
 ])
 function App() {
