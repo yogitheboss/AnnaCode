@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import data from '../../Data/products.json'
+import Footer from '../Homepage/Footer';
 import Navbar from '../Homepage/Navbar';
 
 function Product_Listing() {
@@ -34,7 +35,7 @@ function Product_Listing() {
           </div>
         </section>
       </div>
-
+      <Footer/>
     </>
 
   )
