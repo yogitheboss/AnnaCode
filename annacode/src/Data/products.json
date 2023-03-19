@@ -1,0 +1,71 @@
+[
+    {   
+        "name": "wheat",
+        "variety": "Hard Red Winter",
+        "price": 21,
+        "url": "https://eatwheat.org/learn/kinds-of-wheat/hard-red-winter-wheat/"
+    },
+    {
+    
+        "name": "wheat",
+        "variety": "Hard Red Spring",
+        "price": 25,
+        "url": "https://eatwheat.org/learn/kinds-of-wheat/hard-red-spring-wheat/"
+    },
+    {
+        
+        "name": "wheat",
+        "variety": "Durum",
+        "price": 26,
+        "url": "https://eatwheat.org/learn/kinds-of-wheat/durum-wheat/"
+    },
+    {
+    
+        "name": "Rice",
+        "variety": "Basmati",
+        "price": 190,
+        "url": "https://cdn.shopify.com/s/files/1/0475/8398/5816/products/Basmathi_rice_898x898.jpg?v=1605758270"
+    },
+    {
+        "name": "Rice",
+        "variety": "Brown",
+        "price": 150,
+        "url": "https://www.narayanahealth.org/blog/wp-content/uploads/2022/03/Brown-Rice-Image.jpeg"
+    },
+    {
+        "name": "Rice",
+        "variety": "Black",
+        "price": 300,
+        "url": "https://i.ndtvimg.com/i/2017-05/black-rice_625x350_51493702736.jpg"
+    },
+    {
+        "name": "Pea",
+        "variety": "",
+        "price": 80,
+        "url": "https://www.almanac.com/sites/default/files/styles/or/public/image_nodes/peas-and-pea-pods.jpg?itok=Hq3Aoavs"
+    },
+    {
+        "name": "Masoor",
+        "variety": "",
+        "price": 130,
+        "url": "https://myfavouritepastime.files.wordpress.com/2018/10/img_16311.jpg"
+    },
+    {
+        "name": "Chana",
+        "variety": "Kabooli",
+        "price": 160,
+        "url": "https://indiaspicemart.com/wp-content/uploads/2021/07/kabuli-chana-904129_l.jpg"
+    },
+    {
+        "name": "Urad",
+        "variety": "",
+        "price": 150,
+        "url": "https://www.gomothers.in/wp-content/uploads/2020/06/green-urad.jpg"
+    },
+    {
+        "name": "Moong",
+        "variety": "",
+        "price": 150,
+        "url": "https://www.rajbhog.com/wp-content/uploads/2020/12/Moong-Dal-870x635.jpg"
+    }
+]
