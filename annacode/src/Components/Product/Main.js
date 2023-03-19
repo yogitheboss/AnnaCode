@@ -1,9 +1,9 @@
 import React from 'react'
 import Navbar from '../Homepage/Navbar'
 import { useLocation } from 'react-router-dom'
-function Main() {
+function Main(props) {
     const location = useLocation()
-    const {state}=location
+    console.log(location);
     
     return (
   <>
@@ -12,7 +12,7 @@ function Main() {
         <div className="container px-5 py-24 mx-auto">
             <div className="lg:w-4/5 mx-auto flex flex-wrap">
                 <img alt="ecommerce" className="lg:w-1/2 w-full lg:h-auto h-64 object-cover object-center rounded"
-                    src={state.seed.url}/>
+                    src="https://dummyimage.com/400x400"/>
                 <div className="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">
                     <h2 className="text-sm title-font text-gray-500 tracking-widest">CROP NAME</h2>
                     <h1 className="text-gray-900 text-3xl title-font font-medium mb-1">RICE</h1>
