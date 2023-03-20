@@ -14,7 +14,7 @@ function Navbar() {
                     <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center cursor-pointer ">
                         <Link  to="/" className="mr-5 hover:text-gray-900">Home</Link>
                         <div className="dropdown">
-                            <button className="dropbtn mr-5 hover:text-gray-900">Products
+                            <button className="dropbtn mr-5 hover:text-gray-900 ">Products
                                 <i className="fa fa-caret-down"></i>
                             </button>
                             <div className="dropdown-content">
