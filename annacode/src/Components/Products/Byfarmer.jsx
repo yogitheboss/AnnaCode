@@ -5,6 +5,7 @@ import Footer from '../Homepage/Footer';
 import Navbar from '../Homepage/Navbar';
 
 function Byfarmer() {
+  
   return (
     <>
       <Navbar />
@@ -22,6 +23,8 @@ function Byfarmer() {
             <div className="flex flex-wrap -m-4 ">
               {
                 data.map((seed, idx) => {
+                  
+                  
                   return (
                     <div className="lg:w-1/5 md:w-1/2 p-4 w-full shadow-2xl py-5 px-5" key={idx}>
                       <Link to={`/product/${idx}`} state={{ seed: seed }}
@@ -32,7 +35,9 @@ function Byfarmer() {
                         <div className="text-gray-900 title-font text-lg font-medium flex justify-between">
                           <span>{seed.name}</span>
                           <span className="ml-10">{seed.price}rs</span></div>
+                        
                       </div>
+                     
                     </div>
                   );
                 })

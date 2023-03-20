@@ -16,6 +16,7 @@ function BySeller() {
             <div className="flex flex-wrap -m-4 ">
               {
                 data.map((seed, idx) => {
+                  let preprofit=seed.data[1].cost.preprofit
                   return (
                     <div className="lg:w-1/5 md:w-1/2 p-4 w-full shadow-2xl py-5 px-5" key={idx}>
                       <Link to={`/product/${idx}`} state={{ seed: seed }}
@@ -27,6 +28,9 @@ function BySeller() {
                           <span>{seed.name}</span>
                           <span className="ml-10">{seed.price}rs</span></div>
                       </div>
+                      <div className="text-gray-900 title-font text-green-800 text-lg font-bold font-medium flex justify-between">
+                          <span>Preprofit</span>
+                          <span className="ml-10">{preprofit}rs</span></div>
                     </div>
                   );
                 })
