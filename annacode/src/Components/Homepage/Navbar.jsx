@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import "./Navbar.css"
 
 function Navbar() {
     return (
@@ -12,7 +13,18 @@ function Navbar() {
                     </Link>
                     <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center cursor-pointer ">
                         <Link  to="/" className="mr-5 hover:text-gray-900">Home</Link>
-                        <Link   to="/products" className="mr-5 hover:text-gray-900">Products</Link>
+                        <div class="dropdown">
+                            <button class="dropbtn" className="mr-5 hover:text-gray-900">Products
+                                <i class="fa fa-caret-down"></i>
+                            </button>
+                            <div class="dropdown-content">
+                                <Link to="/farmer">By Farmer</Link>
+                                <Link to="/seller">By Seller</Link>
+                                
+                            </div>
+                        </div>
+                        <Link   to="/products" >Products</Link>
+                        
                         <Link  to="/tracker" className="mr-5 hover:text-gray-900">Tracker</Link>
                         
                         <Link  to="/" className="mr-5 hover:text-gray-900">About Us</Link>

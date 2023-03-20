@@ -1,20 +1,25 @@
 import './App.css';
 import Main from './Components/Homepage/Main';
 import ProductMain from './Components/Product/Main'
-import ProductListing from './Components/Products/ProductListing';
 import {
   createBrowserRouter,
   RouterProvider
 } from 'react-router-dom'
 import Reminder from './Components/Reminder/Reminder';
+import BySeller from './Components/Products/BySeller';
+import Byfarmer from './Components/Products/Byfarmer';
 const router = createBrowserRouter([
   {
     path: '/',
     element: <Main />
   },
   {
-    path: '/products',
-    element: <ProductListing />
+    path: '/farmer',
+    element: <Byfarmer/>
+  },
+  {
+    path: '/seller',
+    element: <BySeller/>
   },
   {
     path:'/product/:id',
