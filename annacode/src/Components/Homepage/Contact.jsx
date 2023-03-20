@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { Link } from 'react-router-dom'
 function Contact() {
   return (
     <section class="text-gray-600 body-font relative">
@@ -13,7 +13,7 @@ function Contact() {
           </div>
           <div class="lg:w-1/2 px-6 mt-4 lg:mt-0">
             <h2 class="title-font font-semibold text-gray-900 tracking-widest text-xs">EMAIL</h2>
-            <a class="text-green-500 leading-relaxed">annacode@email.com</a>
+            <Link class="text-green-500 leading-relaxed">annacode@email.com</Link>
             <h2 class="title-font font-semibold text-gray-900 tracking-widest text-xs mt-4">PHONE</h2>
             <p class="leading-relaxed">123-456-7890</p>
           </div>

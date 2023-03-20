@@ -6,8 +6,7 @@ import {
   createBrowserRouter,
   RouterProvider
 } from 'react-router-dom'
-import LineGraph from './Components/Graph/LineGraph';
-import PieGraph from './Components/Graph/PieGraph';
+import Reminder from './Components/Reminder/Reminder';
 const router = createBrowserRouter([
   {
     path: '/',
@@ -20,6 +19,10 @@ const router = createBrowserRouter([
   {
     path:'/product/:id',
     element:<ProductMain/>
+  },
+  {
+    path:'/tracker',
+    element:<Reminder/>
   }
 ])
 function App() {
