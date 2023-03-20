@@ -3,69 +3,426 @@
         "name": "wheat",
         "variety": "Hard Red Winter",
         "price": 21,
-        "url": "https://eatwheat.org/learn/kinds-of-wheat/hard-red-winter-wheat/"
+        "url": "https://eatwheat.org/learn/kinds-of-wheat/hard-red-winter-wheat/",
+        "info": "Hard red winter wheat is a hard wheat variety that is used to make bread and pasta. It is a type of wheat that is used to make bread and pasta. It is a type of wheat that is used to make bread and pasta.",
+        "nutrients": {
+            "calories": 350,
+            "carbohydrates": 80,
+            "protein": 7,
+            "fat": 1
+        },
+        "allergens": [
+            "gluten"
+        ],
+        "data": [
+            {
+                "time": {
+                    "Preparations_soil": 1,
+                    "sowing": 1,
+                    "growth_1": 15,
+                    "water": 1,
+                    "growth_2": 45,
+                    "fertilizer": 1,
+                    "harvest": 30
+                }
+            },
+            {
+                "cost": {
+                    "soil": 2000,
+                    "sowing": 2000,
+                    "water": 2000,
+                    "fertilizer": 1000,
+                    "harvest": 44000
+                }
+            }
+        ]
     },
     {
     
         "name": "wheat",
         "variety": "Hard Red Spring",
         "price": 25,
-        "url": "https://eatwheat.org/learn/kinds-of-wheat/hard-red-spring-wheat/"
+        "url": "https://eatwheat.org/learn/kinds-of-wheat/hard-red-spring-wheat/",
+        "info": "Hard red spring wheat is a hard wheat variety that is used to make bread and pasta. It is a type of wheat that is used to make bread and pasta. It is a type of wheat that is used to make bread and pasta.",
+        "nutrients": {
+            "calories": 350,
+            "carbohydrates": 80,
+            "protein": 7,
+            "fat": 1
+        },
+        "allergens": [
+            "gluten"
+        ],
+        "data": [
+            {
+                "time": {
+                    "Preparations_soil": 1,
+                    "sowing": 1,
+                    "growth_1": 15,
+                    "water": 1,
+                    "growth_2": 45,
+                    "fertilizer": 1,
+                    "harvest": 30
+                }
+            },
+            {
+                "cost": {
+                    "soil": 2000,
+                    "sowing": 2000,
+                    "water": 2000,
+                    "fertilizer": 1000,
+                    "harvest": 44000
+                }
+            }
+        ]
     },
     {
         
         "name": "wheat",
         "variety": "Durum",
         "price": 26,
-        "url": "https://eatwheat.org/learn/kinds-of-wheat/durum-wheat/"
+        "url": "https://eatwheat.org/learn/kinds-of-wheat/durum-wheat/",
+        "info": "Durum wheat is a hard wheat variety that is used to make pasta and semolina flour. It is a type of wheat that is used to make pasta and semolina flour. It is a type of wheat that is used to make pasta and semolina flour.",
+        "nutrients": {
+            "calories": 350,
+            "carbohydrates": 80,
+            "protein": 7,
+            "fat": 1
+        },
+        "allergens": [
+            "gluten"
+        ],
+        "data": [
+            {
+                "time": {
+                    "Preparations_soil": 1,
+                    "sowing": 1,
+                    "growth_1": 15,
+                    "water": 1,
+                    "growth_2": 45,
+                    "fertilizer": 1,
+                    "harvest": 30
+                }
+            },
+            {
+                "cost": {
+                    "soil": 2000,
+                    "sowing": 2000,
+                    "water": 2000,
+                    "fertilizer": 1000,
+                    "harvest": 44000
+                }
+            }
+        ]
     },
     {
     
         "name": "Rice",
         "variety": "Basmati",
         "price": 190,
-        "url": "https://cdn.shopify.com/s/files/1/0475/8398/5816/products/Basmathi_rice_898x898.jpg?v=1605758270"
+        "url": "https://cdn.shopify.com/s/files/1/0475/8398/5816/products/Basmathi_rice_898x898.jpg?v=1605758270",
+        "info": "Basmati rice is a long-grain rice that is native to the Indian subcontinent. It is traditionally grown in the foothills of the Himalayas in the Indian states of Punjab, Haryana, Himachal Pradesh, Uttarakhand, and Jammu and Kashmir. It is also grown in Pakistan, Nepal, and Bangladesh. Basmati rice is known for its distinct aroma and long, slender grains. It is often used in Indian and Pakistani cuisine, and is also popular in other parts of the world.",
+        "nutrients": {
+            "calories": 350,
+            "carbohydrates": 80,
+            "protein": 7,
+            "fat": 1
+        },
+        "allergens": [
+            "gluten"
+        ],
+        "data": [
+            {
+                "time": {
+                    "Preparations_soil": 1,
+                    "sowing": 1,
+                    "growth_1": 15,
+                    "water": 1,
+                    "growth_2": 45,
+                    "fertilizer": 1,
+                    "harvest": 30
+                }
+            },
+            {
+                "cost": {
+                    "soil": 2000,
+                    "sowing": 2000,
+                    "water": 2000,
+                    "fertilizer": 1000,
+                    "harvest": 55000
+                }
+            }
+        ]
+
     },
     {
         "name": "Rice",
         "variety": "Brown",
         "price": 150,
-        "url": "https://www.narayanahealth.org/blog/wp-content/uploads/2022/03/Brown-Rice-Image.jpeg"
+        "url": "https://www.narayanahealth.org/blog/wp-content/uploads/2022/03/Brown-Rice-Image.jpeg",
+        "info": "Brown rice is a whole grain that is rich in fiber, vitamins, and minerals. It is a popular alternative to white rice, which has been stripped of its nutrients during processing. Brown rice is a whole grain that is rich in fiber, vitamins, and minerals. It is a popular alternative to white rice, which has been stripped of its nutrients during processing.",
+        "nutrients": {
+            "calories": 350,
+            "carbohydrates": 80,
+            "protein": 7,
+            "fat": 1
+        },
+        "allergens": [
+            "gluten"
+        ],
+        "data": [
+            {
+                "time": {
+                    "Preparations_soil": 1,
+                    "sowing": 1,
+                    "growth_1": 15,
+                    "water": 1,
+                    "growth_2": 45,
+                    "fertilizer": 1,
+                    "harvest": 30
+                }
+            },
+            {
+                "cost": {
+                    "soil": 2000,
+                    "sowing": 2000,
+                    "water": 2000,
+                    "fertilizer": 1000,
+                    "harvest": 55000
+                }
+            }
+        ]
     },
     {
         "name": "Rice",
         "variety": "Black",
         "price": 300,
-        "url": "https://i.ndtvimg.com/i/2017-05/black-rice_625x350_51493702736.jpg"
+        "url": "https://i.ndtvimg.com/i/2017-05/black-rice_625x350_51493702736.jpg",
+        "info": "Black rice is a whole grain that is rich in fiber, vitamins, and minerals. It is a popular alternative to white rice, which has been stripped of its nutrients during processing. Black rice is a whole grain that is rich in fiber, vitamins, and minerals. It is a popular alternative to white rice, which has been stripped of its nutrients during processing.",
+        "nutrients": {
+            "calories": 350,
+            "carbohydrates": 80,
+            "protein": 7,
+            "fat": 1
+        },
+        "allergens": [
+            "gluten"
+        ],
+        "data": [
+            {
+                "time": {
+                    "Preparations_soil": 1,
+                    "sowing": 1,
+                    "growth_1": 15,
+                    "water": 1,
+                    "growth_2": 45,
+                    "fertilizer": 1,
+                    "harvest": 30
+                }
+            },
+            {
+                "cost": {
+                    "soil": 2000,
+                    "sowing": 2000,
+                    "water": 2000,
+                    "fertilizer": 1000,
+                    "harvest": 55000
+                }
+            }
+        ]
     },
     {
         "name": "Pea",
         "variety": "",
         "price": 80,
-        "url": "https://www.almanac.com/sites/default/files/styles/or/public/image_nodes/peas-and-pea-pods.jpg?itok=Hq3Aoavs"
+        "url": "https://www.almanac.com/sites/default/files/styles/or/public/image_nodes/peas-and-pea-pods.jpg?itok=Hq3Aoavs",
+        "info": "Peas are a type of legume, or plant in the family Fabaceae. They are grown for their edible seeds. Peas are a type of legume, or plant in the family Fabaceae. They are grown for their edible seeds.",
+        "nutrients": {
+            "calories": 350,
+            "carbohydrates": 80,
+            "protein": 7,
+            "fat": 1
+        },
+        "allergens": [
+            "gluten"
+        ],
+        "data":[
+            {
+                "time": {
+                    "Preparations_soil": 1,
+                    "sowing": 1,
+                    "growth_1": 10,
+                    "water": 1,
+                    "growth_2": 45,
+                    "fertilizer": 1,
+                    "harvest": 30
+                }
+            },
+            {
+                "cost": {
+                    "soil": 2000,
+                    "sowing": 2000,
+                    "water": 2000,
+                    "fertilizer": 1000,
+                    "harvest": 40000
+                }
+            }
+        ]
     },
     {
         "name": "Masoor",
         "variety": "",
         "price": 130,
-        "url": "https://myfavouritepastime.files.wordpress.com/2018/10/img_16311.jpg"
+        "url": "https://myfavouritepastime.files.wordpress.com/2018/10/img_16311.jpg",
+        "info": "Masoor dal is a type of lentil that is commonly used in Indian cooking. It is a staple in many Indian households and is used in a variety of dishes. Masoor dal is a type of lentil that is commonly used in Indian cooking. It is a staple in many Indian households and is used in a variety of dishes.",
+        "nutrients": {
+            "calories": 350,
+            "carbohydrates": 80,
+            "protein": 7,
+            "fat": 1
+        },
+        "allergens": [
+            "gluten"
+        ],
+        "data": [
+            {
+                "time": {
+                    "Preparations_soil": 1,
+                    "sowing": 1,
+                    "growth_1": 25,
+                    "water": 1,
+                    "growth_2": 35,
+                    "fertilizer": 1,
+                    "harvest": 30
+                }
+            },
+            {
+                "cost": {
+                    "soil": 2000,
+                    "sowing": 2000,
+                    "water": 2000,
+                    "fertilizer": 1000,
+                    "harvest": 50000
+                }
+            }
+        ]
+
     },
     {
         "name": "Chana",
         "variety": "Kabooli",
         "price": 160,
-        "url": "https://indiaspicemart.com/wp-content/uploads/2021/07/kabuli-chana-904129_l.jpg"
+        "url": "https://indiaspicemart.com/wp-content/uploads/2021/07/kabuli-chana-904129_l.jpg",
+        "info": "Chickpeas are a type of legume that are commonly used in Indian cooking. They are a staple in many Indian households and are used in a variety of dishes. Chickpeas are a type of legume that are commonly used in Indian cooking. They are a staple in many Indian households and are used in a variety of dishes.",
+        "nutrients": {
+            "calories": 350,
+            "carbohydrates": 80,
+            "protein": 7,
+            "fat": 1
+        },
+        "allergens": [
+            "gluten"
+        ],
+        "data":[
+            {
+                "time": {
+                    "Preparations_soil": 1,
+                    "sowing": 1,
+                    "growth_1": 30,
+                    "water": 4,
+                    "growth_2": 30,
+                    "fertilizer": 1,
+                    "harvest": 30
+                }
+            },
+            {
+                "cost": {
+                    "soil": 2000,
+                    "sowing": 2000,
+                    "water": 2000,
+                    "fertilizer": 1000,
+                    "harvest": 56000
+                }
+            }
+        ]
     },
     {
         "name": "Urad",
         "variety": "",
         "price": 150,
-        "url": "https://www.gomothers.in/wp-content/uploads/2020/06/green-urad.jpg"
+        "url": "https://www.gomothers.in/wp-content/uploads/2020/06/green-urad.jpg",
+        "info": "Urad dal is a type of lentil that is commonly used in Indian cooking. It is a staple in many Indian households and is used in a variety of dishes. Urad dal is a type of lentil that is commonly used in Indian cooking. It is a staple in many Indian households and is used in a variety of dishes.",
+        "nutrients": {
+            "calories": 350,
+            "carbohydrates": 80,
+            "protein": 7,
+            "fat": 1
+        },
+        "allergens": [
+            "gluten"
+        ],
+        "data": [
+            {
+                "time": {
+                    "Preparations_soil": 1,
+                    "sowing": 1,
+                    "growth_1": 30,
+                    "water": 1,
+                    "growth_2": 60,
+                    "fertilizer": 1,
+                    "harvest": 30
+                }
+            },
+            {
+                "cost": {
+                    "soil": 2000,
+                    "sowing": 2000,
+                    "water": 2000,
+                    "fertilizer": 1000,
+                    "harvest": 15000
+                }
+            }
+        ]
+
     },
     {
         "name": "Moong",
         "variety": "",
         "price": 150,
-        "url": "https://www.rajbhog.com/wp-content/uploads/2020/12/Moong-Dal-870x635.jpg"
+        "url": "https://www.rajbhog.com/wp-content/uploads/2020/12/Moong-Dal-870x635.jpg",
+        "info": "Moong dal is a type of lentil that is commonly used in Indian cooking. It is a staple in many Indian households and is used in a variety of dishes. Moong dal is a type of lentil that is commonly used in Indian cooking. It is a staple in many Indian households and is used in a variety of dishes.",
+        "nutrients": {
+            "calories": 350,
+            "carbohydrates": 80,
+            "protein": 7,
+            "fat": 1
+        },
+        "allergens": [
+            "gluten"
+        ],
+        "data":[
+            {
+                "time": {
+                    "Preparations_soil": 1,
+                    "sowing": 1,
+                    "growth_1": 30,
+                    "water": 1,
+                    "growth_2": 60,
+                    "fertilizer": 1,
+                    "harvest": 30
+                }
+            },
+            {
+                "cost": {
+                    "soil": 2000,
+                    "sowing": 2000,
+                    "water": 2000,
+                    "fertilizer": 1000,
+                    "harvest": 20000
+                }
+            }
+        ]
+
     }
+
 ]
