@@ -1,12 +1,11 @@
-// import React from 'react'
-// import { db } from 'annacode\src\Firebase';
-// import { collection, addDoc, getDocs } from 'firebase/firestore';
-// import data from '../Data/product_details_graph.json'
-// function Prices() {
-//     console.log(data);
-//   return (
-//     <div>prices</div>
-//   )
-// }
+import React from 'react'
+// importing firebaseconfig
+import firebaseConfig from '../../src/firebaseConfig'
 
-// export default Prices
+function prices() {
+  return  (
+    <div>prices</div>
+  )
+}
+
+export default prices
