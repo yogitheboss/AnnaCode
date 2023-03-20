@@ -1,11 +1,24 @@
 import React from 'react'
-// importing firebaseconfig
-import firebaseConfig from '../../src/firebaseConfig'
+import { db } from '../../src/firebaseConfig';
+import { collection, addDoc, getDocs } from 'firebase/firestore';
 
-function prices() {
+function Prices() {
+
+
+    const addPrice = async () => {
+        const docRef = await addDoc(collection(db, "prices"), {
+            name: "Apple",
+            price: 1.99
+        });
+        console.log("Document written with ID: ", docRef.id);
+    }
+
   return  (
-    <div>prices</div>
+    <div className='text-center'>
+
+        <button class="bg-blue-800" onClick={addPrice}>CLick to add</button>
+    </div>
   )
 }
 
-export default prices
+export default Prices

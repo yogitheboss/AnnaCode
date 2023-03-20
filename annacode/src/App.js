@@ -7,6 +7,7 @@ import {
   RouterProvider
 } from 'react-router-dom'
 import Reminder from './Components/Reminder/Reminder';
+import Prices from './ForSavingData/Prices';
 const router = createBrowserRouter([
   {
     path: '/',
@@ -23,6 +24,10 @@ const router = createBrowserRouter([
   {
     path:'/tracker',
     element:<Reminder/>
+  },
+  {
+    path:'/prices',
+    element:<Prices/>
   }
 ])
 function App() {
