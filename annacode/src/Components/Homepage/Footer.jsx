@@ -7,7 +7,7 @@ function Footer() {
                 <div className="container px-5 py-24 mx-auto">
                     <div className="flex flex-wrap md:text-left text-center -mb-10 -mx-4">
                         <div className="lg:w-1/6 md:w-1/2 w-full px-4">
-                            <h2 className="title-font font-medium text-white tracking-widest text-sm mb-3">About Us</h2>
+                            <h2 className="title-font font-medium text-white tracking-widest text-sm mb-3"><b>About Us</b></h2>
                             <nav className="list-none mb-10">
                                 <li>
                                     <Link className="text-white hover:text-gray-100">Home</Link>
@@ -19,7 +19,7 @@ function Footer() {
                             </nav>
                         </div>
                         <div className="lg:w-1/6 md:w-1/2 w-full px-4">
-                            <h2 className="title-font font-medium text-white tracking-widest text-sm mb-3">Resources</h2>
+                            <h2 className="title-font font-medium text-white tracking-widest text-sm mb-3"><b> Resources </b></h2>
                             <nav className="list-none mb-10">
                                 <li>
                                     <Link className="text-white hover:text-gray-800">GOI</Link>
@@ -30,7 +30,7 @@ function Footer() {
                             </nav>
                         </div>
                         <div className="lg:w-1/6 md:w-1/2 w-full px-4">
-                            <h2 className="title-font font-medium text-white tracking-widest text-sm mb-3">Development Team </h2>
+                            <h2 className="title-font font-medium text-white tracking-widest text-sm mb-3"><b> Development Team </b></h2>
                             <nav className="list-none mb-10">
                                 <li>
                                     <Link className="text-white hover:text-gray-800">Deccan Chargers</Link>

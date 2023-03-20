@@ -9,7 +9,7 @@ function Contact() {
                 <p class="w-1/2 text-center text-gray-500">Contact US on the given address 
                 </p>
           </div>
-    <div className="container justify-center px-5 py-24 mx-auto flex sm:flex-nowrap flex-wrap">
+    <div className="container justify-center px-2 py-6 mx-auto flex sm:flex-nowrap flex-wrap">
       <div className="lg:w-2/3 md:w-1/2 bg-gray-300 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
         <iframe width="100%" height="100%" className="absolute inset-0" frameborder="0" title="map" marginheight="0" marginwidth="0" scrolling="no" src="https://maps.google.com/maps?width=100%&amp;height=600&amp;hl=en&amp;q=%C4%B0zmir+(My%20Business%20Name)&amp;ie=UTF8&amp;t=&amp;z=14&amp;iwloc=B&amp;output=embed"></iframe>
         <div className="bg-white relative flex flex-wrap py-6 rounded shadow-md">
