@@ -32,7 +32,7 @@
                     "sowing": 2000,
                     "water": 2000,
                     "fertilizer": 1000,
-                    "production": 44000
+                    "preprofit":37000
                 }
             }
         ]
@@ -71,7 +71,7 @@
                     "sowing": 2000,
                     "water": 2000,
                     "fertilizer": 1000,
-                    "production": 44000
+                    "preprofit":37000
                 }
             }
         ]
@@ -110,7 +110,7 @@
                     "sowing": 2000,
                     "water": 2000,
                     "fertilizer": 1000,
-                    "production": 44000
+                    "preprofit":37000
                 }
             }
         ]
@@ -149,7 +149,7 @@
                     "sowing": 2000,
                     "water": 2000,
                     "fertilizer": 1000,
-                    "production": 55000
+                    "preprofit":48000
                 }
             }
         ]
@@ -188,7 +188,7 @@
                     "sowing": 2000,
                     "water": 2000,
                     "fertilizer": 1000,
-                    "production": 55000
+                    "preprofit":48000
                 }
             }
         ]
@@ -226,7 +226,7 @@
                     "sowing": 2000,
                     "water": 2000,
                     "fertilizer": 1000,
-                    "production": 55000
+                    "preprofit":48000
                 }
             }
         ]
@@ -264,7 +264,7 @@
                     "sowing": 2000,
                     "water": 2000,
                     "fertilizer": 1000,
-                    "production": 40000
+                    "preprofit":33000
                 }
             }
         ]
@@ -302,7 +302,7 @@
                     "sowing": 2000,
                     "water": 2000,
                     "fertilizer": 1000,
-                    "production": 50000
+                    "preprofit":43000
                 }
             }
         ]
@@ -341,7 +341,7 @@
                     "sowing": 2000,
                     "water": 2000,
                     "fertilizer": 1000,
-                    "production": 56000
+                    "preprofit":50000
                 }
             }
         ]
@@ -379,7 +379,7 @@
                     "sowing": 2000,
                     "water": 2000,
                     "fertilizer": 1000,
-                    "production": 15000
+                    "preprofit":8000
                 }
             }
         ]
@@ -418,7 +418,7 @@
                     "sowing": 2000,
                     "water": 2000,
                     "fertilizer": 1000,
-                    "production": 20000
+                    "preprofit":13000
                 }
             }
         ]
