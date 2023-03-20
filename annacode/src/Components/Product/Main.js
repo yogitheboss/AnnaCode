@@ -147,9 +147,9 @@ function Main() {
             </div>
 
             <section className="text-gray-600 body-font">
-                <div className="container px-5 py-24 mx-auto">
+                <div className="container px-5 py-12 mx-auto">
                     <div className="flex justify-around">
-                        <div className="grid grid-cols-2 gap-5">
+                        <div className="grid grid-cols-1 md:grid-cols-2  gap-5">
                             <div className=" h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
                                 <Pie data={chart_data} />
                             </div>
@@ -165,13 +165,10 @@ function Main() {
 
             <footer className="text-gray-600 body-font">
                 <div className="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
-                    <Link className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" strokeLinecap="round"
-                            strokeLinejoin="round" strokeWidth="2" className="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full"
-                            viewBox="0 0 24 24">
-                            <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
-                        </svg>
-                        <span className="ml-3 text-xl">AnnaCode</span>
+                    <Link to="/" className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+
+                        <img src="./logo.png" alt="" className="w-10 rounded-full"/>
+                        <span className="ml-3 text-xl text-white"> <b>अन्न CODE</b></span>
                     </Link>
                     <p className="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">©
                         AnnaCode —
