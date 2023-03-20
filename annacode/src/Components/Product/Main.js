@@ -2,11 +2,14 @@ import React from 'react'
 import Navbar from '../Homepage/Navbar'
 import { useLocation } from 'react-router-dom'
 import { Link } from 'react-router-dom'
+import data from '../../Data/products.json'
 import PieGraph from '../Graph/PieGraph'
 import LineGraph from '../Graph/LineGraph'
 function Main(props) {
     const location = useLocation()
-    const url = location.state.seed.url;
+    const index = location.pathname.split('/')[2];
+    const seeddata=data[index];
+    const info=seeddata.data
     return (
         <>
             <Navbar />
@@ -14,16 +17,13 @@ function Main(props) {
                 <div className="container px-5 py-24 mx-auto">
                     <div className="lg:w-4/5 mx-auto flex flex-wrap">
                         <img alt="ecommerce" className="lg:w-1/2 w-full lg:h-auto h-64 object-cover object-center rounded"
-                            src={url} />
+                            src={seeddata.url} />
                         <div className="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">
-                            <h2 className="text-sm title-font text-gray-500 tracking-widest">CROP NAME</h2>
-                            <h1 className="text-gray-900 text-3xl title-font font-medium mb-1">RICE</h1>
+                            <h2 className="text-sm title-font text-gray-500 tracking-widest">{seeddata.variety}</h2>
+                            <h1 className="text-gray-900 text-3xl title-font font-medium mb-1">{seeddata.name}</h1>
                             <div className="flex mb-4">
                             </div>
-                            <p className="leading-relaxed">Fam locavore kickstarter distillery. Mixtape chillwave tumeric sriracha
-                                taximy chia microdosing tilde DIY. XOXO fam indxgo juiceramps cornhole raw denim forage
-                                brooklyn. Everyday carry +1 seitan poutine tumeric. Gastropub blue bottle austin listicle
-                                pour-over, neutra jean shorts keytar banjo tattooed umami cardigan.</p>
+                            <p className="leading-relaxed">{seeddata.info}</p>
                         </div>
                     </div>
                 </div>
@@ -62,7 +62,7 @@ function Main(props) {
                     <div className="flex flex-wrap -m-4">
                         <div className="p-4 md:w-1/3">
                             <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-                               <PieGraph/>
+                               <PieGraph file={{info}}/>
                             </div>
                         </div>
                         <div className="p-4 md:w-1/3">
