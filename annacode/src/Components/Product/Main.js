@@ -12,7 +12,6 @@ import {
 import { Pie } from 'react-chartjs-2';
 import { Bar } from 'react-chartjs-2';
 
-
 ChartJS.register(
     CategoryScale,
     LinearScale,
@@ -22,21 +21,18 @@ ChartJS.register(
     Legend
 );
 function Main() {
-
-    // function run(){
-    //     responsiveVoice.speak("kya kr rhe","Hindi Male");
-    //     var voicelist = responsiveVoice.getVoices();
-    //     console.log(voicelist);
-    // }
+    
     ChartJS.register(ArcElement, Tooltip, Legend);
     const location = useLocation()
     const index = location.pathname.split('/')[2];
     const seeddata = data[index];
-    const info = seeddata.data
     const label_datakeys = Object.keys(seeddata.data[1].cost);
     const label_datavalues = Object.values(seeddata.data[1].cost);
     const nameNutrients = Object.keys(seeddata.nutrients)
     const nameNutrientsValues = Object.values(seeddata.nutrients)
+    function run(){
+        window.responsiveVoice.speak(seeddata.info,"Hindi Male");
+    }
     const chart_data = {
         labels: label_datakeys,
         datasets: [
@@ -112,9 +108,11 @@ function Main() {
                         <div className="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">
                             <h2 className="text-sm title-font text-gray-500 tracking-widest">{seeddata.variety}</h2>
                             <h1 className="text-gray-900 text-3xl title-font font-medium mb-1">{seeddata.name}</h1>
-                            <div className="flex mb-4">
-                            </div>
+                            <div className="flex mt-10">
                             <p className="leading-relaxed">{seeddata.info}</p>
+                            </div>
+                            <button onClick={run} className='p-4 bg-green-700 text-white rounded-lg mt-10'>Speak</button>
+
                         </div>
                     </div>
                 </div>
@@ -144,7 +142,6 @@ function Main() {
                             <td>{nameNutrients[3]}</td>
                             <td>{nameNutrientsValues[3]}</td>
                         </tr>
-
                     </tbody>
                 </table>
             </div>

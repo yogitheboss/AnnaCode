@@ -13,11 +13,11 @@ function Navbar() {
                     </Link>
                     <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center cursor-pointer ">
                         <Link  to="/" className="mr-5 hover:text-gray-900">Home</Link>
-                        <div class="dropdown">
-                            <button class="dropbtn" className="mr-5 hover:text-gray-900">Products
-                                <i class="fa fa-caret-down"></i>
+                        <div className="dropdown">
+                            <button className="dropbtn mr-5 hover:text-gray-900">Products
+                                <i className="fa fa-caret-down"></i>
                             </button>
-                            <div class="dropdown-content">
+                            <div className="dropdown-content">
                                 <Link to="/farmer">By Farmer</Link>
                                 <Link to="/seller">By Seller</Link>
                                 

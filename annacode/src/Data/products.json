@@ -5,6 +5,8 @@
         "price": 21,
         "url": "https://eatwheat.org/learn/kinds-of-wheat/hard-red-winter-wheat/",
         "info": "Hard red winter wheat is a hard wheat variety that is used to make bread and pasta. It is a type of wheat that is used to make bread and pasta. It is a type of wheat that is used to make bread and pasta.",
+        "hindi": "गेहूं",
+        "hindiinfo":"हार्ड रेड विंटर गेहूं एक सख्त गेहूं किस्म है जिसका उपयोग ब्रेड और पास्ता बनाने के लिए किया जाता है। यह एक प्रकार का गेहूं है जिसका उपयोग रोटी और पास्ता बनाने के लिए किया जाता है। यह एक प्रकार का गेहूं है जिसका उपयोग रोटी और पास्ता बनाने के लिए किया जाता है",
         "nutrients": {
             "calories": 350,
             "carbohydrates": 80,
@@ -50,6 +52,8 @@
             "protein": 7,
             "fat": 1
         },
+        "hindi": "गेहूं",
+        "hindiinfo":"हार्ड रेड स्प्रिंग व्हीट एक हार्ड व्हीट किस्म है जिसका उपयोग ब्रेड और पास्ता बनाने के लिए किया जाता है। यह एक प्रकार का गेहूं है जिसका उपयोग रोटी और पास्ता बनाने के लिए किया जाता है। यह एक प्रकार का गेहूं है जिसका उपयोग रोटी और पास्ता बनाने के लिए किया जाता है।",
         "allergens": [
             "gluten"
         ],
@@ -83,6 +87,8 @@
         "price": 26,
         "url": "https://eatwheat.org/learn/kinds-of-wheat/durum-wheat/",
         "info": "Durum wheat is a hard wheat variety that is used to make pasta and semolina flour. It is a type of wheat that is used to make pasta and semolina flour. It is a type of wheat that is used to make pasta and semolina flour.",
+        "hindi": "दुरुम गेहूं",
+        "hindiinfo":"ड्यूरम गेहूं एक कठोर गेहूं की किस्म है जिसका उपयोग पास्ता और सूजी के आटे को बनाने के लिए किया जाता है। यह एक प्रकार का गेहूं है जिसका उपयोग पास्ता और सूजी के आटे को बनाने के लिए किया जाता है। यह एक प्रकार का गेहूं है जिसका उपयोग पास्ता और सूजी के आटे को बनाने के लिए किया जाता है। ",
         "nutrients": {
             "calories": 350,
             "carbohydrates": 80,
@@ -122,6 +128,8 @@
         "price": 190,
         "url": "https://cdn.shopify.com/s/files/1/0475/8398/5816/products/Basmathi_rice_898x898.jpg?v=1605758270",
         "info": "Basmati rice is a long-grain rice that is native to the Indian subcontinent. It is traditionally grown in the foothills of the Himalayas in the Indian states of Punjab, Haryana, Himachal Pradesh, Uttarakhand, and Jammu and Kashmir. It is also grown in Pakistan, Nepal, and Bangladesh. Basmati rice is known for its distinct aroma and long, slender grains. It is often used in Indian and Pakistani cuisine, and is also popular in other parts of the world.",
+        "hindi": "बसमती चावल",    
+        "hindiinfo":"बसमती चावल भारतीय उपदेश्य के मूल राष्ट्र है। यह भारतीय राज्यों के पंजाब, हरियाणा, हिमाचल प्रदेश, उत्तराखंड और जम्मू और कश्मीर में हिमालय के पारदर्शियों में उत्पादित भारतीय चावल का एक प्रकार है। यह पाकिस्तान, नेपाल और बांग्लादेश में भी उत्पादित किया जाता है। बसमती चावल अपने अलग आवाज़ और लंबे, छोटे ग्रेन्स के लिए जाना जाता है। यह भारतीय और पाकिस्तानी खाद्य पदार्थों में अक्सर उपयोग किया जाता है, और दुनिया के अन्य भागों में भी लोकप्रिय है।,बासमती चावल एक लंबे दाने वाला चावल है जो भारतीय उपमहाद्वीप का मूल निवासी है। यह परंपरागत रूप से भारतीय राज्यों पंजाब, हरियाणा, हिमाचल प्रदेश, उत्तराखंड और जम्मू और कश्मीर में हिमालय की तलहटी में उगाया जाता है। यह पाकिस्तान, नेपाल और बांग्लादेश में भी उगाया जाता है। बासमती चावल अपनी विशिष्ट सुगंध और लंबे, पतले दानों के लिए जाना जाता है। यह अक्सर भारतीय और पाकिस्तानी व्यंजनों में प्रयोग किया जाता है, और यह दुनिया के अन्य हिस्सों में भी लोकप्रिय है।",
         "nutrients": {
             "calories": 350,
             "carbohydrates": 80,
@@ -161,6 +169,8 @@
         "price": 150,
         "url": "https://www.narayanahealth.org/blog/wp-content/uploads/2022/03/Brown-Rice-Image.jpeg",
         "info": "Brown rice is a whole grain that is rich in fiber, vitamins, and minerals. It is a popular alternative to white rice, which has been stripped of its nutrients during processing. Brown rice is a whole grain that is rich in fiber, vitamins, and minerals. It is a popular alternative to white rice, which has been stripped of its nutrients during processing.",
+        "hindi": "भूरा चावल",
+        "hindiinfo":"ब्राउन राइस एक साबुत अनाज है जो फाइबर, विटामिन और खनिजों से भरपूर होता है। यह सफेद चावल का एक लोकप्रिय विकल्प है, जिसे प्रसंस्करण के दौरान इसके पोषक तत्वों से वंचित कर दिया गया है। ब्राउन राइस एक साबुत अनाज है जो फाइबर, विटामिन और खनिजों से भरपूर होता है। यह सफेद चावल का एक लोकप्रिय विकल्प है, जिसे प्रसंस्करण के दौरान इसके पोषक तत्वों से वंचित कर दिया गया है।",
         "nutrients": {
             "calories": 350,
             "carbohydrates": 80,
@@ -199,6 +209,8 @@
         "price": 300,
         "url": "https://i.ndtvimg.com/i/2017-05/black-rice_625x350_51493702736.jpg",
         "info": "Black rice is a whole grain that is rich in fiber, vitamins, and minerals. It is a popular alternative to white rice, which has been stripped of its nutrients during processing. Black rice is a whole grain that is rich in fiber, vitamins, and minerals. It is a popular alternative to white rice, which has been stripped of its nutrients during processing.",
+        "hindi": "काला चावल",
+        "hindiinfo":"काला चावल एक साबुत अनाज है जो फाइबर, विटामिन और खनिजों से भरपूर होता है। यह सफेद चावल का एक लोकप्रिय विकल्प है, जिसे प्रसंस्करण के दौरान इसके पोषक तत्वों से वंचित कर दिया गया है। काला चावल एक साबुत अनाज है जो फाइबर, विटामिन और खनिजों से भरपूर होता है। यह सफेद चावल का एक लोकप्रिय विकल्प है, जिसे प्रसंस्करण के दौरान इसके पोषक तत्वों से वंचित कर दिया गया है।",
         "nutrients": {
             "calories": 350,
             "carbohydrates": 80,
@@ -237,6 +249,8 @@
         "price": 80,
         "url": "https://www.almanac.com/sites/default/files/styles/or/public/image_nodes/peas-and-pea-pods.jpg?itok=Hq3Aoavs",
         "info": "Peas are a type of legume, or plant in the family Fabaceae. They are grown for their edible seeds. Peas are a type of legume, or plant in the family Fabaceae. They are grown for their edible seeds.",
+        "hindi": "मटर",
+        "hindiinfo":"मटर फैबेसी परिवार में एक प्रकार की फलियां या पौधे हैं। वे अपने खाद्य बीजों के लिए उगाए जाते हैं। मटर फैबेसी परिवार में एक प्रकार की फलियां या पौधे हैं। वे अपने खाद्य बीजों और खनिजों के लिए उगाए जाते हैं। यह सफेद चावल का एक लोकप्रिय विकल्प है, जिसे प्रसंस्करण के दौरान इसके पोषक तत्वों से वंचित कर दिया गया है। काला चावल एक साबुत अनाज है जो फाइबर, विटामिन और खनिजों से भरपूर होता है। यह सफेद चावल का एक लोकप्रिय विकल्प है, जिसे प्रसंस्करण के दौरान इसके पोषक तत्वों से वंचित कर दिया गया है।",
         "nutrients": {
             "calories": 350,
             "carbohydrates": 80,
@@ -314,6 +328,8 @@
         "price": 160,
         "url": "https://indiaspicemart.com/wp-content/uploads/2021/07/kabuli-chana-904129_l.jpg",
         "info": "Chickpeas are a type of legume that are commonly used in Indian cooking. They are a staple in many Indian households and are used in a variety of dishes. Chickpeas are a type of legume that are commonly used in Indian cooking. They are a staple in many Indian households and are used in a variety of dishes.",
+        "hindi": "चना",
+        "hindiinfo":"चना एक प्रकार की फलियां हैं जो आमतौर पर भारतीय खाना पकाने में उपयोग की जाती हैं। वे कई भारतीय घरों में एक प्रधान हैं और विभिन्न प्रकार के व्यंजनों में उपयोग किए जाते हैं। चना एक प्रकार की फलियां हैं जो आमतौर पर भारतीय खाना पकाने में उपयोग की जाती हैं। वे कई भारतीय घरों में एक प्रधान हैं और विभिन्न प्रकार के व्यंजनों में उपयोग किए जाते हैं।",
         "nutrients": {
             "calories": 350,
             "carbohydrates": 80,
@@ -352,6 +368,8 @@
         "price": 150,
         "url": "https://www.gomothers.in/wp-content/uploads/2020/06/green-urad.jpg",
         "info": "Urad dal is a type of lentil that is commonly used in Indian cooking. It is a staple in many Indian households and is used in a variety of dishes. Urad dal is a type of lentil that is commonly used in Indian cooking. It is a staple in many Indian households and is used in a variety of dishes.",
+        "hindi": "उरद",
+        "hindiinfo":"उड़द की दाल एक प्रकार की दाल है जो आमतौर पर भारतीय खाना पकाने में उपयोग की जाती है। यह कई भारतीय घरों में एक प्रधान है और विभिन्न प्रकार के व्यंजनों में इसका उपयोग किया जाता है। उड़द की दाल एक प्रकार की दाल है जो आमतौर पर भारतीय खाना पकाने में उपयोग की जाती है। यह कई भारतीय घरों में एक प्रधान है और विभिन्न प्रकार के व्यंजनों में इसका उपयोग किया जाता है।",
         "nutrients": {
             "calories": 350,
             "carbohydrates": 80,
@@ -391,6 +409,8 @@
         "price": 150,
         "url": "https://www.rajbhog.com/wp-content/uploads/2020/12/Moong-Dal-870x635.jpg",
         "info": "Moong dal is a type of lentil that is commonly used in Indian cooking. It is a staple in many Indian households and is used in a variety of dishes. Moong dal is a type of lentil that is commonly used in Indian cooking. It is a staple in many Indian households and is used in a variety of dishes.",
+        "hindi": "मूंग",
+        "hindiinfo":"मूंग दाल एक प्रकार की दाल है जो आमतौर पर भारतीय खाना पकाने में प्रयोग की जाती है। यह कई भारतीय घरों में एक प्रधान है और विभिन्न प्रकार के व्यंजनों में इसका उपयोग किया जाता है। मूंग दाल एक प्रकार की दाल है जो आमतौर पर भारतीय खाना पकाने में प्रयोग की जाती है। यह कई भारतीय घरों में एक प्रधान है और विभिन्न प्रकार के व्यंजनों में इसका उपयोग किया जाता है।",
         "nutrients": {
             "calories": 350,
             "carbohydrates": 80,

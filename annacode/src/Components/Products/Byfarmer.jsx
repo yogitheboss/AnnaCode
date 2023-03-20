@@ -10,10 +10,10 @@ function Byfarmer() {
       <Navbar />
       <div>
         <section className="text-gray-600 body-font">
-        <div class="flex flex-col items-center p-2 gap-3">
-                <h1 class="text-slate-900 font-bold text-2xl">Vocal For Local</h1>
-                <h1 class="text-slate-900 font-bold ">अन्न CODE</h1>
-                <p class="w-1/2 text-center text-gray-500">अन्न CODE Provides an e-commerce platform to sell the yield of Farmers.
+        <div className="flex flex-col items-center p-2 gap-3">
+                <h1 className="text-slate-900 font-bold text-2xl">Vocal For Local</h1>
+                <h1 className="text-slate-900 font-bold ">अन्न CODE</h1>
+                <p className="w-1/2 text-center text-gray-500">अन्न CODE Provides an e-commerce platform to sell the yield of Farmers.
                 </p>
           </div>
           <div className="flex flex-col gap-3 items-center mx-auto py-5 text-3xl">
