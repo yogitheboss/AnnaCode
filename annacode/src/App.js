@@ -5,6 +5,7 @@ import {
   createBrowserRouter,
   RouterProvider
 } from 'react-router-dom'
+import { Link } from 'react-router-dom';
 import Reminder from './Components/Reminder/Reminder';
 import BySeller from './Components/Products/BySeller';
 import Byfarmer from './Components/Products/Byfarmer';
@@ -15,19 +16,31 @@ const router = createBrowserRouter([
   },
   {
     path: '/farmer',
-    element: <Byfarmer/>
+    element: <Byfarmer />
   },
   {
     path: '/seller',
-    element: <BySeller/>
+    element: <BySeller />
   },
   {
-    path:'/product/:id',
-    element:<ProductMain/>
+    path: '/product/:id',
+    element: <ProductMain />
   },
   {
-    path:'/tracker',
-    element:<Reminder/>
+    path: '/tracker',
+    element: <Reminder />
+  },
+  {
+    path: '/feedback',
+    element: (<>
+
+      <div className='flex flex-col  justify-center items-center h-screen text-4xl'>
+        <p className='m-2'>
+          Thanks for your feedback 🧡, we would try to improve it further
+        </p>
+        <button className='bg-green-400 p-2 rounded-lg mt-20'><Link  to="/"> Homepage</Link></button>        
+      </div>
+    </>)
   }
 ])
 function App() {
