@@ -7,7 +7,7 @@ function Navbar() {
             <header className="text-gray-700 body-font p-2 ">
                 <div className="container mx-auto flex flex-wrap p-0 flex-col md:flex-row items-center">
                     <Link to="/" className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
-                        <img src="./logo.png" alt="" class="w-10 rounded-full"/>
+                        <img src="./logo.png" alt="" className="w-10 rounded-full"/>
                         <span className="ml-3 text-xl"> <b>अन्न CODE</b></span>
                     </Link>
                     <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center cursor-pointer bg-green">

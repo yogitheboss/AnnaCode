@@ -16,7 +16,7 @@ function Prices() {
   return  (
     <div className='text-center'>
 
-        <button class="bg-blue-800" onClick={addPrice}>CLick to add</button>
+        <button className="bg-blue-800" onClick={addPrice}>CLick to add</button>
     </div>
   )
 }
