@@ -22,6 +22,12 @@ ChartJS.register(
     Legend
 );
 function Main() {
+
+    // function run(){
+    //     responsiveVoice.speak("kya kr rhe","Hindi Male");
+    //     var voicelist = responsiveVoice.getVoices();
+    //     console.log(voicelist);
+    // }
     ChartJS.register(ArcElement, Tooltip, Legend);
     const location = useLocation()
     const index = location.pathname.split('/')[2];
@@ -29,8 +35,8 @@ function Main() {
     const info = seeddata.data
     const label_datakeys = Object.keys(seeddata.data[1].cost);
     const label_datavalues = Object.values(seeddata.data[1].cost);
-    const nameNutrients=Object.keys(seeddata.nutrients)
-    const nameNutrientsValues=Object.values(seeddata.nutrients)
+    const nameNutrients = Object.keys(seeddata.nutrients)
+    const nameNutrientsValues = Object.values(seeddata.nutrients)
     const chart_data = {
         labels: label_datakeys,
         datasets: [
@@ -138,7 +144,7 @@ function Main() {
                             <td>{nameNutrients[3]}</td>
                             <td>{nameNutrientsValues[3]}</td>
                         </tr>
-                        
+
                     </tbody>
                 </table>
             </div>
@@ -151,7 +157,7 @@ function Main() {
                                 <Pie data={chart_data} />
                             </div>
                             <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-                                <Bar options={options} data={bar_chart_data} />    
+                                <Bar options={options} data={bar_chart_data} />
                             </div>
 
                         </div>

@@ -100,11 +100,11 @@ function HowToUse() {
                                 <div className="flex-grow">
                                     <h2 className="text-gray-900 text-lg title-font font-medium mb-3">Record Keeping</h2>
                                     <p className="leading-relaxed text-base">With अन्न CODE your spray, employee, harvest, irrigation, and other production practice records are only a few clicks or taps away - whenever and wherever you need them.</p>
-                                    <a className="mt-3 text-green-500 inline-flex items-center">Learn More
+                                    <Link to='/tracker' className="mt-3 text-green-500 inline-flex items-center">Learn More
                                         <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
                                             <path d="M5 12h14M12 5l7 7-7 7"></path>
                                         </svg>
-                                    </a>
+                                    </Link>
                                 </div>
                             </div>
                         </div>
@@ -122,11 +122,11 @@ function HowToUse() {
                             <div className="flex-grow">
                                 <h2 className="text-gray-900 text-lg title-font font-medium mb-3">Scheduling</h2>
                                 <p className="pr-10 leading-relaxed text-base">Keep your farm on track and avoid forgotten or duplicated tasks.  Create your own schedules quickly and easily or choose from thousands of schedule templates.</p>
-                                <a className="mt-3 text-green-500 inline-flex items-center">Learn More
+                                <Link to="/tracker" className="mt-3 text-green-500 inline-flex items-center">Learn More
                                     <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
                                         <path d="M5 12h14M12 5l7 7-7 7"></path>
                                     </svg>
-                                </a>
+                                </Link>
                             </div>
                         </div>
                         <div className=" flex flex-col mb-10 lg:items-start items-center">
@@ -139,11 +139,11 @@ function HowToUse() {
                             <div className="flex-grow">
                                 <h2 className="text-gray-900 text-lg title-font font-medium mb-3">Analytics & Reports</h2>
                                 <p className="leading-relaxed text-base pr-10">अन्न CODE makes tracking your farm's progress a snap and can shave days off the auditing process.  Let us handle the paperwork so you can get back to your farm.</p>
-                                <a className="mt-3 text-green-500 inline-flex items-center">Learn More
+                                <Link to="/tracker" className="mt-3 text-green-500 inline-flex items-center">Learn More
                                     <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
                                         <path d="M5 12h14M12 5l7 7-7 7"></path>
                                     </svg>
-                                </a>
+                                </Link>
                             </div>
                         </div>
                     </div>
