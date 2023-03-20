@@ -3,6 +3,7 @@ import Hero from './Hero'
 import Navbar from './Navbar'
 import Footer from './Footer'
 import HowToUse from './HowToUse'
+import Contact from './Contact'
 
 function Main() {
   return (
@@ -10,6 +11,7 @@ function Main() {
     <Navbar/>
     <Hero/>
     <HowToUse/>
+    <Contact/>
     <Footer/>
    </>
   )
