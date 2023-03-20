@@ -3,8 +3,6 @@ import Navbar from '../Homepage/Navbar'
 import { useLocation } from 'react-router-dom'
 import { Link } from 'react-router-dom'
 import data from '../../Data/products.json'
-import PieGraph from '../Graph/PieGraph'
-import LineGraph from '../Graph/LineGraph'
 import {
     Chart as ChartJS, ArcElement, Tooltip, Legend, CategoryScale,
     LinearScale,

@@ -1,0 +1,17 @@
+{
+    "Andhra_Pradesh":["Rice", "tobacco", "sugarcane", "cotton", "chillies","turmeric"],
+    "Bihar":["Rice", "wheat", "maize", "pulses","oilseeds", "sugarcane","jute"],
+    "Gujarat":["Cotton", "groundnut", "castor","cumin","sesame","potato","banana"],
+    "Haryana":["Wheat", "rice", "maize", "bajra", "sugarcane", "cotton","vegetables"],
+    "Karnataka":["Rice", "sugarcane", "coconut", "groundnut", "cotton","coffee","tea"],
+    "Kerala":["Rice", "coconut", "rubber", "tea", "coffee", "pepper","cardamom"],
+    "Madhya Pradesh":["Wheat", "rice", "maize", "pulses", "oilseeds","sugarcane","soybean"],
+    "Maharashtra": ["Sugarcane", "cotton", "groundnut", "soybean","pulses","oilseeds"],
+    "Punjab": ["Wheat", "rice", "maize", "sugarcane", "cotton","fruits"],
+    "Rajasthan": ["Wheat", "barley", "pulses", "oilseeds", "cotton","tobacco"],
+    "Tamil Nadu":["Rice", "sugarcane", "groundnut", "cotton", "maize","vegetables"],
+    "Uttar Pradesh":["Rice", "wheat", "sugarcane", "pulses", "oilseeds","potato"],
+    "West Bengal": ["Rice", "jute", "sugarcane", "potato","vegetables"],
+    "Telangana": ["Rice", "Jowar", "Bajra", "Maize", "Cotton","Sugarcane"]
+
+}
