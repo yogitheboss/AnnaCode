@@ -23,7 +23,7 @@ function Navbar() {
                                 
                             </div>
                         </div>
-                        <Link   to="/products" >Products</Link>
+                       
                         
                         <Link  to="/tracker" className="mr-5 hover:text-gray-900">Tracker</Link>
                         
