@@ -9,6 +9,7 @@ import { Link } from 'react-router-dom';
 import Reminder from './Components/Reminder/Reminder';
 import BySeller from './Components/Products/BySeller';
 import Byfarmer from './Components/Products/Byfarmer';
+import About from './Components/About/About';
 const router = createBrowserRouter([
   {
     path: '/',
@@ -40,7 +41,11 @@ const router = createBrowserRouter([
         </p>
         <button className='bg-green-400 p-2 rounded-lg mt-20'><Link  to="/"> Homepage</Link></button>        
       </div>
-    </>)
+    </>),
+  },
+  {
+    path:'/about',
+    element:<About/>
   }
 ])
 function App() {

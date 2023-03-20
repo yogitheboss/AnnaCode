@@ -27,7 +27,7 @@ function Navbar() {
                         
                         <Link  to="/tracker" className="mr-5 hover:text-gray-900">Tracker</Link>
                         
-                        <Link  to="/" className="mr-5 hover:text-gray-900">About Us</Link>
+                        <Link  to="/about" className="mr-5 hover:text-gray-900">About Us</Link>
                     </nav>
                     <button 
                         className="inline-flex items-center bg-white text-green-900 font-bold border-0 py-1 px-3 focus:outline-none bg-green hover:bg-gray-200 rounded  mt-4 md:mt-0">
