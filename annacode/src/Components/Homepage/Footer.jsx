@@ -49,7 +49,7 @@ function Footer() {
                 </div>
                 <div className='w-full h=.5 bg-white'>
                 </div>
-                <div className="bg-green-700">
+                <div className="bg-green-900">
                     <div className="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
                         <p className="text-white text-sm text-center sm:text-left">© 2023 AnnaCode —
                             <Link href="https://twitter.com/knyttneve" className="text-white ml-1" target="_blank" rel="noopener noreferrer">@annacode</Link>
