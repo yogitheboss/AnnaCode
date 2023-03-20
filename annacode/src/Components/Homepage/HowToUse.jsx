@@ -1,14 +1,23 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import translate from '../../Data/translate_home.json'
+
 function HowToUse() {
+    function run() {
+        translate.forEach((item) => {
+            window.responsiveVoice.speak(item, "Hindi Male");
+        })
+    }
     return (
         <div>
             <div className="py-30">
+
                 <div className="flex flex-col items-center gap-3">
                     <h1 className="text-slate-900 font-bold text-2xl ">How to Use</h1>
                     <p className="w-1/2 text-center text-gray-600">अन्न CODE can be used to determine the seed Digital labeling of Seeds of different varieties.
                     </p>
                 </div>
+                <button onClick={run}>बोल</button>
                 <section className="text-gray-600 body-font">
                     <div className="container px-5 py-12 mx-auto flex flex-wrap">
                         <div className="flex relative pt-10 pb-20 sm:items-center md:w-2/3 mx-auto">
