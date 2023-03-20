@@ -4,8 +4,8 @@ import translate from '../../Data/translate_home.json'
 
 function HowToUse() {
     function run() {
-        translate.forEach((item) => {
-            window.responsiveVoice.speak(item, "Hindi Male");
+        translate.forEach(async (item) => {
+            await window.responsiveVoice.speak(item, "Hindi Male");
         })
     }
     return (
@@ -17,7 +17,7 @@ function HowToUse() {
                     <p className="w-1/2 text-center text-gray-600">अन्न CODE can be used to determine the seed Digital labeling of Seeds of different varieties.
                     </p>
                 </div>
-                <button onClick={run}>बोल</button>
+                <button onClick={run} className="absolute bottom-10 right-10 p-4 bg-green-700 text-white rounded-lg mt-10">बोल</button>
                 <section className="text-gray-600 body-font">
                     <div className="container px-5 py-12 mx-auto flex flex-wrap">
                         <div className="flex relative pt-10 pb-20 sm:items-center md:w-2/3 mx-auto">
