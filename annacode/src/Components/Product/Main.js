@@ -5,16 +5,32 @@ import { Link } from 'react-router-dom'
 import data from '../../Data/products.json'
 import PieGraph from '../Graph/PieGraph'
 import LineGraph from '../Graph/LineGraph'
-import { Chart as ChartJS, ArcElement, Tooltip, Legend } from 'chart.js';
+import {
+    Chart as ChartJS, ArcElement, Tooltip, Legend, CategoryScale,
+    LinearScale,
+    BarElement,
+    Title
+} from 'chart.js';
 import { Pie } from 'react-chartjs-2';
+import { Bar } from 'react-chartjs-2';
+
+
+ChartJS.register(
+    CategoryScale,
+    LinearScale,
+    BarElement,
+    Title,
+    Tooltip,
+    Legend
+);
 function Main() {
     ChartJS.register(ArcElement, Tooltip, Legend);
     const location = useLocation()
     const index = location.pathname.split('/')[2];
     const seeddata = data[index];
     const info = seeddata.data
-    const label_datakeys=Object.keys(seeddata.data[1].cost);
-    const label_datavalues=Object.values(seeddata.data[1].cost);
+    const label_datakeys = Object.keys(seeddata.data[1].cost);
+    const label_datavalues = Object.values(seeddata.data[1].cost);
     const chart_data = {
         labels: label_datakeys,
         datasets: [
@@ -41,6 +57,45 @@ function Main() {
             },
         ],
     };
+    const bar_chart_data = {
+        labels: label_datakeys,
+        datasets: [
+            {
+                label: 'preprofit',
+                data: label_datavalues,
+                backgroundColor: [
+                    'rgba(255, 99, 132, 0.2)',
+                    'rgba(54, 162, 235, 0.2)',
+                    'rgba(255, 206, 86, 0.2)',
+                    'rgba(75, 192, 192, 0.2)',
+                    'rgba(153, 102, 255, 0.2)',
+                    'rgba(255, 159, 64, 0.2)',
+                ],
+                borderColor: [
+                    'rgba(255, 99, 132, 1)',
+                    'rgba(54, 162, 235, 1)',
+                    'rgba(255, 206, 86, 1)',
+                    'rgba(75, 192, 192, 1)',
+                    'rgba(153, 102, 255, 1)',
+                    'rgba(255, 159, 64, 1)',
+                ],
+                borderWidth: 1,
+            },
+        ],
+    };
+    const options = {
+        responsive: true,
+        plugins: {
+            legend: {
+                position: 'top',
+            },
+            title: {
+                display: true,
+                text: 'Chart.js Bar Chart',
+            },
+        },
+    };
+
     return (
         <>
             <Navbar />
@@ -90,11 +145,15 @@ function Main() {
 
             <section className="text-gray-600 body-font">
                 <div className="container px-5 py-24 mx-auto">
-                    <div className="flex flex-wrap -m-4">
-                        <div className="p-4 md:w-1/3">
-                            <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-                            <Pie data={chart_data} /> 
+                    <div className="flex justify-around">
+                        <div className="grid grid-cols-2 gap-5">
+                            <div className=" h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                                <Pie data={chart_data} />
                             </div>
+                            <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                                <Bar options={options} data={bar_chart_data} />    
+                            </div>
+
                         </div>
                     </div>
                 </div>
