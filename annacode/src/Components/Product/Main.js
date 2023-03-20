@@ -31,6 +31,8 @@ function Main() {
     const info = seeddata.data
     const label_datakeys = Object.keys(seeddata.data[1].cost);
     const label_datavalues = Object.values(seeddata.data[1].cost);
+    const nameNutrients=Object.keys(seeddata.nutrients)
+    const nameNutrientsValues=Object.values(seeddata.nutrients)
     const chart_data = {
         labels: label_datakeys,
         datasets: [
@@ -95,7 +97,6 @@ function Main() {
             },
         },
     };
-
     return (
         <>
             <Navbar />
@@ -124,18 +125,22 @@ function Main() {
                     </thead>
                     <tbody>
                         <tr>
-                            <td>The Sliding Mr. Bones</td>
-                            <td>Malcolm Lockyer</td>
-                            
+                            <td>{nameNutrients[0]}</td>
+                            <td>{nameNutrientsValues[0]}</td>
                         </tr>
                         <tr>
-                            <td>Witchy Woman</td>
-                            <td>The Eagles</td>
+                            <td>{nameNutrients[1]}</td>
+                            <td>{nameNutrientsValues[1]}</td>
                         </tr>
                         <tr>
-                            <td>Shining Star</td>
-                            <td>Earth, Wind, and Fire</td>
+                            <td>{nameNutrients[2]}</td>
+                            <td>{nameNutrientsValues[2]}</td>
                         </tr>
+                        <tr>
+                            <td>{nameNutrients[3]}</td>
+                            <td>{nameNutrientsValues[3]}</td>
+                        </tr>
+                        
                     </tbody>
                 </table>
             </div>
