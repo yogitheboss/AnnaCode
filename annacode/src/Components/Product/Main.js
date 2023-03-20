@@ -31,7 +31,7 @@ function Main() {
     const nameNutrients = Object.keys(seeddata.nutrients)
     const nameNutrientsValues = Object.values(seeddata.nutrients)
     function run(){
-        window.responsiveVoice.speak(seeddata.info,"Hindi Male");
+        window.responsiveVoice.speak(seeddata.hindiinfo,"Hindi Male");
     }
     const chart_data = {
         labels: label_datakeys,
