@@ -47,4 +47,15 @@ A farmer's centric Web App. It's a smart web-built app for farmers which recomme
 ### our website homepage
 ![image](https://user-images.githubusercontent.com/91418287/226484030-eaca4636-64a4-4b1c-a5cb-1a5e3c302132.png)
 
+### products page:
+![image](https://user-images.githubusercontent.com/91418287/226485512-e07b4f63-b31b-4d24-be3c-c98bf06d3417.png)
+
+### products page components:
+![image](https://user-images.githubusercontent.com/91418287/226485743-19653a25-6e22-4343-b7f6-ad9b926a7c2a.png)
+![image](https://user-images.githubusercontent.com/91418287/226485765-46130b80-7f4d-46d0-a01c-a14137f92dbd.png)
+
+### crop tracker:
+![image](https://user-images.githubusercontent.com/91418287/226485824-49ac59a4-630f-4c00-8cc6-c635c79ac8c1.png)
+
+
 
