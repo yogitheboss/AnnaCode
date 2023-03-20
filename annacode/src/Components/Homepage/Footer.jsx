@@ -27,6 +27,12 @@ function Footer() {
                                 <li>
                                     <Link className="text-white hover:text-gray-800">ICAR</Link>
                                 </li>
+                                <li>
+                                    <Link className="text-white hover:text-gray-800">Chat Gpt</Link>
+                                </li>
+                                <li>
+                                    <Link className="text-white hover:text-gray-800">Ministry of Agriculture</Link>
+                                </li>
                             </nav>
                         </div>
                         <div className="lg:w-1/6 md:w-1/2 w-full px-4">

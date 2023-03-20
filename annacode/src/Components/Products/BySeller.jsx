@@ -11,7 +11,7 @@ function BySeller() {
       <div>
         <section className="text-gray-600 body-font py-5">
           <div className="flex flex-col gap-3 items-center mx-auto py-5 text-3xl">
-            Hybrid Seeds or Agriculture for farmers</div>
+            Hybrid Seeds for Agriculture for farmers</div>
           <div className="container px-5 py-5 mx-auto">
             <div className="flex flex-wrap -m-4 ">
               {
