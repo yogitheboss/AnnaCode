@@ -5,11 +5,42 @@ import { Link } from 'react-router-dom'
 import data from '../../Data/products.json'
 import PieGraph from '../Graph/PieGraph'
 import LineGraph from '../Graph/LineGraph'
-function Main(props) {
+import { Chart as ChartJS, ArcElement, Tooltip, Legend } from 'chart.js';
+import { Pie } from 'react-chartjs-2';
+function Main() {
+    ChartJS.register(ArcElement, Tooltip, Legend);
     const location = useLocation()
     const index = location.pathname.split('/')[2];
-    const seeddata=data[index];
-    const info=seeddata.data
+    const seeddata = data[index];
+    const info = seeddata.data
+    const label_datakeys=Object.keys(seeddata.data[1].cost);
+    const label_datavalues=Object.values(seeddata.data[1].cost);
+    const chart_data = {
+        labels: label_datakeys,
+        datasets: [
+            {
+                label: 'preprofit',
+                data: label_datavalues,
+                backgroundColor: [
+                    'rgba(255, 99, 132, 0.2)',
+                    'rgba(54, 162, 235, 0.2)',
+                    'rgba(255, 206, 86, 0.2)',
+                    'rgba(75, 192, 192, 0.2)',
+                    'rgba(153, 102, 255, 0.2)',
+                    'rgba(255, 159, 64, 0.2)',
+                ],
+                borderColor: [
+                    'rgba(255, 99, 132, 1)',
+                    'rgba(54, 162, 235, 1)',
+                    'rgba(255, 206, 86, 1)',
+                    'rgba(75, 192, 192, 1)',
+                    'rgba(153, 102, 255, 1)',
+                    'rgba(255, 159, 64, 1)',
+                ],
+                borderWidth: 1,
+            },
+        ],
+    };
     return (
         <>
             <Navbar />
@@ -62,17 +93,7 @@ function Main(props) {
                     <div className="flex flex-wrap -m-4">
                         <div className="p-4 md:w-1/3">
                             <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-                               <PieGraph file={{info}}/>
-                            </div>
-                        </div>
-                        <div className="p-4 md:w-1/3">
-                            <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-                                <LineGraph/>
-                            </div>
-                        </div>
-                        <div className="p-4 md:w-1/3">
-                            <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-                                <PieGraph/>
+                            <Pie data={chart_data} /> 
                             </div>
                         </div>
                     </div>

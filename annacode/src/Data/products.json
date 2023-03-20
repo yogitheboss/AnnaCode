@@ -23,7 +23,7 @@
                     "water": 1,
                     "growth_2": 45,
                     "fertilizer": 1,
-                    "harvest": 30
+                    "production": 30
                 }
             },
             {
@@ -32,7 +32,7 @@
                     "sowing": 2000,
                     "water": 2000,
                     "fertilizer": 1000,
-                    "harvest": 44000
+                    "production": 44000
                 }
             }
         ]
@@ -62,7 +62,7 @@
                     "water": 1,
                     "growth_2": 45,
                     "fertilizer": 1,
-                    "harvest": 30
+                    "production": 30
                 }
             },
             {
@@ -71,7 +71,7 @@
                     "sowing": 2000,
                     "water": 2000,
                     "fertilizer": 1000,
-                    "harvest": 44000
+                    "production": 44000
                 }
             }
         ]
@@ -101,7 +101,7 @@
                     "water": 1,
                     "growth_2": 45,
                     "fertilizer": 1,
-                    "harvest": 30
+                    "production": 30
                 }
             },
             {
@@ -110,7 +110,7 @@
                     "sowing": 2000,
                     "water": 2000,
                     "fertilizer": 1000,
-                    "harvest": 44000
+                    "production": 44000
                 }
             }
         ]
@@ -140,7 +140,7 @@
                     "water": 1,
                     "growth_2": 45,
                     "fertilizer": 1,
-                    "harvest": 30
+                    "production": 30
                 }
             },
             {
@@ -149,7 +149,7 @@
                     "sowing": 2000,
                     "water": 2000,
                     "fertilizer": 1000,
-                    "harvest": 55000
+                    "production": 55000
                 }
             }
         ]
@@ -179,7 +179,7 @@
                     "water": 1,
                     "growth_2": 45,
                     "fertilizer": 1,
-                    "harvest": 30
+                    "production": 30
                 }
             },
             {
@@ -188,7 +188,7 @@
                     "sowing": 2000,
                     "water": 2000,
                     "fertilizer": 1000,
-                    "harvest": 55000
+                    "production": 55000
                 }
             }
         ]
@@ -217,7 +217,7 @@
                     "water": 1,
                     "growth_2": 45,
                     "fertilizer": 1,
-                    "harvest": 30
+                    "production": 30
                 }
             },
             {
@@ -226,7 +226,7 @@
                     "sowing": 2000,
                     "water": 2000,
                     "fertilizer": 1000,
-                    "harvest": 55000
+                    "production": 55000
                 }
             }
         ]
@@ -255,7 +255,7 @@
                     "water": 1,
                     "growth_2": 45,
                     "fertilizer": 1,
-                    "harvest": 30
+                    "production": 30
                 }
             },
             {
@@ -264,7 +264,7 @@
                     "sowing": 2000,
                     "water": 2000,
                     "fertilizer": 1000,
-                    "harvest": 40000
+                    "production": 40000
                 }
             }
         ]
@@ -293,7 +293,7 @@
                     "water": 1,
                     "growth_2": 35,
                     "fertilizer": 1,
-                    "harvest": 30
+                    "production": 30
                 }
             },
             {
@@ -302,7 +302,7 @@
                     "sowing": 2000,
                     "water": 2000,
                     "fertilizer": 1000,
-                    "harvest": 50000
+                    "production": 50000
                 }
             }
         ]
@@ -332,7 +332,7 @@
                     "water": 4,
                     "growth_2": 30,
                     "fertilizer": 1,
-                    "harvest": 30
+                    "production": 30
                 }
             },
             {
@@ -341,7 +341,7 @@
                     "sowing": 2000,
                     "water": 2000,
                     "fertilizer": 1000,
-                    "harvest": 56000
+                    "production": 56000
                 }
             }
         ]
@@ -370,7 +370,7 @@
                     "water": 1,
                     "growth_2": 60,
                     "fertilizer": 1,
-                    "harvest": 30
+                    "production": 30
                 }
             },
             {
@@ -379,7 +379,7 @@
                     "sowing": 2000,
                     "water": 2000,
                     "fertilizer": 1000,
-                    "harvest": 15000
+                    "production": 15000
                 }
             }
         ]
@@ -409,7 +409,7 @@
                     "water": 1,
                     "growth_2": 60,
                     "fertilizer": 1,
-                    "harvest": 30
+                    "production": 30
                 }
             },
             {
@@ -418,7 +418,7 @@
                     "sowing": 2000,
                     "water": 2000,
                     "fertilizer": 1000,
-                    "harvest": 20000
+                    "production": 20000
                 }
             }
         ]
