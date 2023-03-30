@@ -3,7 +3,8 @@
 
 
 ## problem statement:
-The farmer engaged in farming and living in villages don't have affordable and best crop selection strategies and the proper value of their products due to improper reach to the market.
+Farmers in villages often struggle to access affordable and reliable information on crop selection strategies and lack proper market access, resulting in reduced productivity and income.
+
 
 ## Theme Covered
 ## Agriculture and food security
